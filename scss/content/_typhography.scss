@@ -1,0 +1,33 @@
+.heading-tertiary {
+	color: white;
+	font-size: 5rem;
+	text-transform: uppercase;
+	text-align: center;
+
+	&--2 {
+		color: black;
+		font-size: 4rem;
+		margin-bottom: 5rem;
+
+		span {
+			color: $color-primary;
+		}
+	}
+}
+
+.contact_location {
+	color: black;
+	border: 1px solid #e0e0e0;
+
+	&--adress {
+		padding: 1.5rem;
+		font-size: 2rem;
+		&:first-child {
+			font-size: 4rem;
+		}
+
+		&:not(:last-child) {
+			border-bottom: 1px solid #e0e0e0;
+		}
+	}
+}

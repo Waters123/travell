@@ -1,0 +1,15 @@
+{
+	"name": "travelvine",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"node-sass": "^4.12.0"
+	},
+	"scripts": {
+		"travel": "node-sass scss/main.scss css/style.css -w"
+	},
+	"author": "guga",
+	"license": "ISC"
+}

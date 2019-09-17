@@ -1,0 +1,99 @@
+.card1 {
+	box-shadow: -1px 0px 14px 2px rgba(0, 0, 0, 0.75);
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem;
+	width: 32%;
+	@include respond(tab-port) {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	&__icon {
+		font-size: 10rem;
+		color: $color-primary;
+	}
+
+	&__heading {
+		color: black;
+		font-size: 4rem;
+	}
+
+	&__paragraph {
+		color: black;
+		font-size: 2rem;
+		padding: 3rem;
+		text-align: center;
+	}
+}
+
+.card2 {
+	width: 32%;
+	position: relative;
+	box-shadow: -1px 0px 14px 2px rgba(0, 0, 0, 0.75);
+	border-radius: 0.5rem;
+	overflow: hidden;
+	@include respond(tab-port) {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	&__background {
+		width: 100%;
+	}
+
+	&__img {
+		width: 100%;
+	}
+
+	&__span {
+		position: absolute;
+		color: #fff;
+		z-index: 5;
+
+		font-size: 3rem;
+		top: 25rem;
+		left: 3rem;
+		@include respond(tab-port) {
+			font-size: 6rem;
+		}
+	}
+
+	&__paragraph {
+		font-size: 2rem;
+		padding: 3rem;
+		@include respond(tab-port) {
+			font-size: 4rem;
+		}
+	}
+}
+
+.form-grid {
+	width: 48%;
+	border-radius: 5rem;
+	@include respond(tab-port) {
+		width: 100%;
+		margin-top: 2rem;
+	}
+}
+.form {
+	box-shadow: -1px 0px 14px 2px rgba(0, 0, 0, 0.25);
+	padding: 3rem;
+	background-color: #eee;
+
+	&__heading {
+		font-size: 3rem;
+	}
+
+	&__input {
+		padding: 1rem !important;
+		height: 5rem !important;
+		font-size: 3rem !important;
+	}
+}
+
+.btn {
+	margin-top: 4rem;
+	font-size: 2rem !important;
+}

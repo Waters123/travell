@@ -1,0 +1,32 @@
+.section-search {
+	background-color: $color-primary;
+	padding: 5rem;
+}
+
+.section-travell {
+	background-color: #f5f5f5;
+	padding: 3rem 0;
+	padding-bottom: 4rem;
+}
+
+.section-places {
+	background-color: #fff;
+	padding-top: 4rem;
+	padding-bottom: 7rem;
+}
+
+.section-media {
+	padding: 3rem 0;
+	background-color: $color-primary-dark;
+}
+
+.footer-section {
+	background-color: $color-primary;
+	text-align: center;
+	color: #fff;
+	&__text {
+		font-size: 3rem;
+
+		padding: 5rem;
+	}
+}

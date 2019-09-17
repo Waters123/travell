@@ -1,0 +1,21 @@
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	&:last-child {
+		padding-bottom: 5rem;
+	}
+
+	&__photo-box {
+		padding-bottom: 2rem;
+		width: 23.5%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__photo {
+		width: 100%;
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}
